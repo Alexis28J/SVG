@@ -1,0 +1,25 @@
+.active {
+    transform: rotate(90deg);
+    /* per ruotare l'icona hamburger di 90 gradi */
+    transition: transform 0.3s ease;
+
+    /* transition serve per rendere l'animazione fluida */
+    /* la proprietà transform ruota l'elemento */
+    /* 0.3s è il tempo di transizione e ease è il tipo di animazione */
+}
+
+
+#hamburguer {
+    transition: filter 0.3s ease; /* Transizione fluida per il cambio colore */
+    /* filter è una proprietà CSS che permette di applicare effetti grafici come il cambio di colore */
+    cursor: pointer;  /* Cambia il cursore per indicare interattività */
+    /* pointer è il cursore che indica che l'elemento è cliccabile */
+    
+}
+
+/* Puoi aggiungere stili specifici per l'hover direttamente qui se preferisci */
+/*
+#miaImmagine:hover {
+    filter: grayscale(100%) sepia(50%);
+}
+*/
